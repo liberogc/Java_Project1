@@ -26,6 +26,8 @@ public class Home {
 		char c='A';
 		int valore = (int) c;
 		System.out.println("ASCII "+valore);
+		double importo=10.8;
+		int imp = (int) 10.8; // cast restringente
 		// utilizzo dll classe Scanner
 		Scanner intext = new Scanner(System.in); // Istanza di classe si ottiene l' oggetto
 		System.out.println("Digitare caratteri alfanumerici"); // messaggio su console prima di inserire
